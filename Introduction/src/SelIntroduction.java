@@ -13,11 +13,11 @@ public class SelIntroduction {
 		System.out.println(Cdriver.getTitle());
 		System.out.println(Cdriver.getCurrentUrl());
 		Cdriver.quit();
-		
+		//Barry Test to push
 		WebDriver FDriver = new FirefoxDriver();
 		FDriver.get("https://rahulshettyacademy.com");
 		System.out.println(FDriver.getTitle());
 		System.out.println(FDriver.getCurrentUrl());
-		FDriver.quit();
+		FDriver.close();
 	}
 }
